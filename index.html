@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/app.css"/>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <script type="application/javascript" src="js/angular.min.js" charset="UTF-8"></script>
+    <script type="application/javascript" src="js/angular-route.min.js" charset="UTF-8"></script>
+    <script type="application/javascript" src="js/app.js" charset="UTF-8"></script>
+    <header><h1 class="jumbotron text-right" >קטלוג מכשירי כתיבה</h1></header>
+	<nav>
+        <a href="#pens" >עטים</a> |
+        <a href="#notebooks" >מחברות</a> |
+        <a href="#scissors" >מספריים</a>
+    </nav>
+    <div >
+        
+        <div ng-view ></div>
+    </div>
+    </body>
+</html>
